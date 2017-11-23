@@ -79,6 +79,7 @@ a{
 #top-line{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   width: 100%;
   position: relative;
   right: 19rem;
@@ -87,7 +88,6 @@ a{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-start;
   position: relative;
   top: 6rem;
   right: 2em;
@@ -101,7 +101,6 @@ a{
   position:relative;
   left: 17rem;
   top: 3rem;
-  margin-right: 2rem;
 
 }
 .img-title img{
