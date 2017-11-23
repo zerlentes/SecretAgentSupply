@@ -1,0 +1,74 @@
+html{
+  font-size: 18px;
+}
+header{
+  background-color: black;
+  color: white;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-transform: uppercase;
+}
+header img{
+  height: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  position: relative;
+  left: 17rem;
+}
+header span{
+  padding: 0.66rem 0rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+  position: relative;
+  left: 17rem;
+}
+.banner{
+  background-image: url("file:///C:/projects/SecretAgentSupply/resources/photos/moto.jpeg");
+  height: 25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#new{
+  width: 20rem;
+  height: 12rem;
+  background-color:black;
+  color: white;
+  position: relative;
+  top: 9rem;
+  left: 17rem;
+}
+#top{
+  font-family: Helvetica;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 2rem;
+  padding-bottom: 0.25rem;
+  padding-left: 3rem;
+}
+.banner p{
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-left: 3rem;
+}
+nav{
+height: 2.5rem;
+background-color:firebrick;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+nav li{
+display: inline-block;
+position: relative;
+left:17rem;
+padding-right: 8rem;
+}
+a{
+  color: white;
+  font-family: Helvetica;
+}
