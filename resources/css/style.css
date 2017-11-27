@@ -71,11 +71,6 @@ nav .container ul{
   flex-direction: row;
   justify-content: space-between;
 }
-#poduct-grid .container{
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
 #top-line{
   display: flex;
   flex-direction: row;
@@ -156,4 +151,55 @@ nav span{
 #glasses{
   display: none;
 }
+}
+@media only screen and (max-width: 470px){
+.container{
+  width: auto;
+}
+  #banner{
+    height: 15rem;
+  }
+  #new{
+    width: auto;
+    background-color:black;
+    position: relative;
+    top: 10rem;
+  }
+  #new #top{
+    font-size: 0.77rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    padding-left: 2rem;
+  }
+  #banner p{
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 2rem;
+  }
+  #top-line .img-title{
+    width: 90%;
+    margin: 0px auto;
+  }
+  #watch{
+    display: none;
+  }
+  #bottom-line{
+    display: block;
+    margin: 0px auto;
+    width: 90%;
+
+  }
+  #loc{
+    width: auto;
+    padding-bottom: 0.5rem;
+  }
+  #hrs{
+    width: auto;
+  }
+  footer{
+    text-align: center;
+  }
 }
