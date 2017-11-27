@@ -26,7 +26,7 @@ header .container span{
   margin: 0px auto;
 }
 #banner{
-  background-image: url("file:///C:/projects/SecretAgentSupply/resources/photos/moto.jpeg");
+  background-image: url("https://github.com/zerlentes/SecretAgentSupply/blob/master/resources/photos/moto.jpeg?raw=true");
   height: 25rem;
   background-size: cover;
   background-repeat: no-repeat;
