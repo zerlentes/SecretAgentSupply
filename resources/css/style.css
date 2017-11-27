@@ -56,6 +56,9 @@ header .container span{
 nav{
 background-color:firebrick;
 }
+nav span{
+  display: none;
+}
 nav li{
 display: inline-block;
 line-height: 2.5rem;
@@ -134,4 +137,23 @@ footer{
   line-height: 5rem;
   position: relative;
   top: 10rem;
+}
+@media only screen and (max-width: 1024px){
+#banner p{
+  font-size: 1.5rem;
+}
+nav ul li{
+  display: none;
+}
+nav span{
+  display: block;
+  line-height: 2.5rem;
+  text-align: center;
+}
+#top-line .img-title{
+  width: 47%;
+}
+#glasses{
+  display: none;
+}
 }
